@@ -37,7 +37,8 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
   background-color: var(--resume-bg);
   color: var(--resume-text);
   -webkit-font-smoothing: antialiased;
@@ -47,4 +48,8 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
 }

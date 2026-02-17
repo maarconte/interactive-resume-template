@@ -120,7 +120,7 @@ export const resumeConfig: ResumeConfig = {
 			company: { en: 'Abyss Energy', fr: 'Abyss Energy' },
 			role: { en: 'Freelance Web Developer & Designer', fr: 'Développeuse Web & Designer Freelance' },
 			type: { en: 'Freelance', fr: 'Freelance' },
-			period: { en: '2025', fr: '2025' },
+			period: { en: 'Aug 2025 - Nov 2025', fr: 'Août 2025 - Nov 2025' },
 			description: {
 				en: 'Redesign of a showcase website for Abyss Energy.',
 				fr: 'Refonte d\'un site vitrine sous WordPress poour Abyss Energy.',
@@ -156,7 +156,7 @@ export const resumeConfig: ResumeConfig = {
 			company: { en: 'Heptalytics', fr: 'Heptalytics' },
 			role: { en: 'Web Developer & Designer', fr: 'Développeuse & Designer' },
 			type: { en: 'Freelance', fr: 'Freelance' },
-			period: { en: '2024', fr: '2024' },
+			period: { en: 'Nov 2024', fr: 'Nov 2024' },
 			description: {
 				en: 'Showcase website redesign.',
 				fr: 'Refonte d\'un site vitrine.',
@@ -224,7 +224,7 @@ export const resumeConfig: ResumeConfig = {
 			company: { en: 'ID Protect', fr: 'ID Protect' },
 			role: { en: 'Fullstack Developer & Designer', fr: 'Développeuse Fullstack & Designer' },
 			type: { en: 'Freelance', fr: 'Freelance' },
-			period: { en: 'Feb 2023 - Present', fr: 'Fév 2023 - Aujourd\'hui' },
+			period: { en: '2023 - Present', fr: '2023 - Aujourd\'hui' },
 			description: {
 				en: 'Identity theft protection services. Creation of showcase site and web app.',
 				fr: 'Lutte contre l\'usurpation d\'identité. Réalisation du site vitrine et de l\'application web.',
@@ -256,28 +256,36 @@ export const resumeConfig: ResumeConfig = {
 			},
 		},
 		{
-			id: 'esiee-it',
-			company: { en: 'ESIEE IT - Coding Factory', fr: 'ESIEE IT - Coding Factory' },
-			role: { en: 'Trainer', fr: 'Formatrice' },
+			id: 'wagram-stories',
+			company: { en: 'Wagram Stories', fr: 'Wagram Stories' },
+			role: { en: 'Frontend Developer & UX/UI Designer', fr: 'Développeuse Front End & UX/UI Designer' },
 			type: { en: 'Freelance', fr: 'Freelance' },
-			period: { en: '2022 - Present', fr: '2022 - Aujourd\'hui' },
+			period: { en: '2023', fr: '2023' },
 			description: {
-				en: 'Trainer in coding school for retraining classes, Bachelor and Master.',
-				fr: 'Formatrice en école de code pour des classes de reconversion, Bachelor et Master.',
+				en: 'Back office redesign.',
+				fr: 'Refonte du back office.',
 			},
-			techs: ['JavaScript', 'React JS', 'TypeScript'],
+			techs: ['HTML', 'CSS', 'JavaScript', 'Figma'],
 			details: {
 				context: {
-					en: 'Coding school for retraining and higher education.',
-					fr: 'École de code pour reconversion et études supérieures.',
+					en: 'Music and creative production company.',
+					fr: 'Production musicale et créative.',
 				},
 				env: {
-					en: 'JavaScript / React JS / TypeScript',
-					fr: 'JavaScript / React JS / TypeScript',
+					en: 'HTML / CSS / JavaScript / Figma',
+					fr: 'HTML / CSS / JavaScript / Figma',
 				},
 				tasks: {
-					en: ['Taught modules: Javascript, React JS, Typescript'],
-					fr: ['Modules enseignés : Javascript, React JS, Typescript'],
+					en: [
+						'Back office redesign',
+						'Creation of a Figma mockup, Prototype, Design System population',
+						'Integration of the new design into the existing website',
+					],
+					fr: [
+						'Refonte du back office',
+						'Élaboration d\'une maquette FIGMA, Prototype, Alimentation d\'un Design System',
+						'Intégration du nouveau design au site web existant',
+					],
 				},
 			},
 		},
@@ -312,6 +320,32 @@ export const resumeConfig: ResumeConfig = {
 						'Réalisation de la maquette et du prototype interactif sur Figma, réalisation du design system',
 						'Développement de l\'espace client sous React.Js + Firebase',
 					],
+				},
+			},
+		},
+		{
+			id: 'esiee-it',
+			company: { en: 'ESIEE IT - Coding Factory', fr: 'ESIEE IT - Coding Factory' },
+			role: { en: 'Trainer', fr: 'Formatrice' },
+			type: { en: 'Freelance', fr: 'Freelance' },
+			period: { en: '2022 - Present', fr: '2022 - Aujourd\'hui' },
+			description: {
+				en: 'Trainer in coding school for retraining classes, Bachelor and Master.',
+				fr: 'Formatrice en école de code pour des classes de reconversion, Bachelor et Master.',
+			},
+			techs: ['JavaScript', 'React JS', 'TypeScript'],
+			details: {
+				context: {
+					en: 'Coding school for retraining and higher education.',
+					fr: 'École de code pour reconversion et études supérieures.',
+				},
+				env: {
+					en: 'JavaScript / React JS / TypeScript',
+					fr: 'JavaScript / React JS / TypeScript',
+				},
+				tasks: {
+					en: ['Taught modules: Javascript, React JS, Typescript'],
+					fr: ['Modules enseignés : Javascript, React JS, Typescript'],
 				},
 			},
 		},
@@ -352,8 +386,7 @@ export const resumeConfig: ResumeConfig = {
 			company: { en: 'THATMUCH', fr: 'THATMUCH' },
 			role: { en: 'Co-founder | Frontend Dev & Designer', fr: 'Co-fondatrice | Dev Front End + UI/UX' },
 			type: { en: 'Co-founder', fr: 'Co-fondatrice' },
-			period: { en: 'Apr 2018 - Present', fr: 'Avr 2018 - Aujourd\'hui' },
-			isHighlighted: true,
+			period: { en: '2018 - Present', fr: '2018 - Aujourd\'hui' },
 			description: {
 				en: 'Web Agency and Training.',
 				fr: 'Agence Web et Formation.',
@@ -440,6 +473,168 @@ export const resumeConfig: ResumeConfig = {
 				},
 			},
 		},
+		{
+			id: 'xprdev',
+			company: { en: 'XprDev', fr: 'XprDev' },
+			role: { en: 'Frontend Developer & UX/UI Designer', fr: 'Développeuse Front End & UX/UI Designer' },
+			type: { en: 'Employee', fr: 'Salarié' },
+			period: { en: 'May 2016 - Dec 2016', fr: 'Mai 2016 - Déc 2016' },
+			description: {
+				en: 'Web Agency.',
+				fr: 'Agence web.',
+			},
+			techs: ['WordPress', 'SCSS', 'PHP'],
+			details: {
+				context: {
+					en: 'Web Agency.',
+					fr: 'Agence web.',
+				},
+				env: {
+					en: 'WordPress / SCSS / PHP',
+					fr: 'WordPress / SCSS / PHP',
+				},
+				tasks: {
+					en: [
+						'Redesign and creation of WordPress sites: Technical analysis, requirements gathering, webdesign, integration and development, creation of illustrations',
+					],
+					fr: [
+						'Refonte et création de sites Wordpress : Analyse technique, recueil des besoins, webdesign, intégration et développement, création d\'illustrations',
+					],
+				},
+			},
+		},
+		{
+			id: 'codify',
+			company: { en: 'Codify', fr: 'Codify' },
+			role: { en: 'Frontend Developer', fr: 'Développeuse Front End' },
+			type: { en: 'Internship', fr: 'Stage' },
+			period: { en: 'Feb 2016 - Apr 2016', fr: 'Fév 2016 - Avr 2016' },
+			description: {
+				en: 'Web Agency.',
+				fr: 'Agence web.',
+			},
+			techs: ['React JS', 'SCSS'],
+			details: {
+				context: {
+					en: 'Web Agency.',
+					fr: 'Agence web.',
+				},
+				env: {
+					en: 'React JS / SCSS',
+					fr: 'React JS / SCSS',
+				},
+				tasks: {
+					en: [
+						'Integration of websites from provided mockups respecting OOCSS best practices',
+					],
+					fr: [
+						'Intégration de sites web à partir des maquettes fournies en respectant les bonnes pratiques du OOCSS',
+					],
+				},
+			},
+		},
+		{
+			id: 'lepoles',
+			company: { en: 'LePoleS', fr: 'LePoleS' },
+			role: { en: 'Frontend Developer', fr: 'Développeuse Front End' },
+			type: { en: 'Employee', fr: 'Salarié' },
+			period: { en: 'Jun 2015 - Feb 2016', fr: 'Juin 2015 - Fév 2016' },
+			description: {
+				en: 'Association for economic development.',
+				fr: 'Association pour le développement économique.',
+			},
+			techs: ['JavaScript', 'SCSS', 'WordPress', 'PHP'],
+			details: {
+				context: {
+					en: 'Association for economic development and access to employment.',
+					fr: 'Association pour le développement économique et accès à l\'emploi.',
+				},
+				env: {
+					en: 'JavaScript / SCSS / WordPress / PHP',
+					fr: 'JavaScript / SCSS / WordPress / PHP',
+				},
+				tasks: {
+					en: [
+						'Creation of a pedagogical platform under WordPress: Needs analysis, tree structure creation, integration and development',
+					],
+					fr: [
+						'Création d\'une plateforme pédagogique sous Wordpress : Analyse des besoins, création d\'arborescence, intégration et développement',
+					],
+				},
+				training: {
+					en: [
+						'Web Developer training (6 months)',
+						'Accessibility (OpQuast) certification',
+					],
+					fr: [
+						'Formation Développeur Web (6 mois)',
+						'Certification Accessibilité OpQuast',
+					],
+				},
+			},
+		},
+		{
+			id: 'sos-racisme',
+			company: { en: 'SOS Racisme', fr: 'SOS Racisme' },
+			role: { en: 'Graphic Designer', fr: 'Graphiste' },
+			type: { en: 'Service civique', fr: 'Service civique' },
+			period: { en: 'Oct 2014 - Mar 2015', fr: 'Oct 2014 - Mar 2015' },
+			description: {
+				en: 'Visual communication.',
+				fr: 'Communication visuelle.',
+			},
+			techs: ['InDesign', 'Photoshop', 'Illustrator', 'WordPress'],
+			details: {
+				context: {
+					en: 'NGO against racism.',
+					fr: 'Association de lutte contre le racisme.',
+				},
+				env: {
+					en: 'InDesign / Photoshop / Illustrator / WordPress',
+					fr: 'InDesign / Photoshop / Illustrator / WordPress',
+				},
+				tasks: {
+					en: [
+						'Visual communication: Creation of print and web supports (posters, leaflets, business cards, reports...)',
+						'Photo editing, management and integration of WordPress site content',
+					],
+					fr: [
+						'Communication visuelle : Création de supports print et web (affiches, tracts, cartes de visite, rapports...)',
+						'Montage photos, gestion et intégration du contenu du site Wordpress',
+					],
+				},
+			},
+		},
+		{
+			id: 'microsoft',
+			company: { en: 'Microsoft', fr: 'Microsoft' },
+			role: { en: 'Assistant User Experience', fr: 'Assistant User Experience' },
+			type: { en: 'Internship', fr: 'Stage' },
+			period: { en: 'Jan 2013 - Jul 2013', fr: 'Janv 2013 - Juil 2013' },
+			description: {
+				en: 'Webdesign for Xbox Music and Xbox support.',
+				fr: 'Webdesign pour Xbox Music et Xbox support.',
+			},
+			techs: ['Photoshop', 'Illustrator', 'UI/UX Design'],
+			details: {
+				context: {
+					en: 'Microsoft Xbox Division.',
+					fr: 'Division Xbox de Microsoft.',
+				},
+				env: {
+					en: 'Photoshop / Illustrator / UI/UX Design',
+					fr: 'Photoshop / Illustrator / UI/UX Design',
+				},
+				tasks: {
+					en: [
+						'Webdesign: Update, redesign and creation of web page design for Xbox Music and Xbox support',
+					],
+					fr: [
+						'Webdesign : Mise à jour, remaniement et création du design de pages web pour Xbox Music et Xbox support',
+					],
+				},
+			},
+		},
 	],
 
 	// ===== PROJECTS =====
@@ -518,12 +713,12 @@ export const resumeConfig: ResumeConfig = {
 	// ===== UI LABELS =====
 	labels: {
 		sections: {
-			contact: { en: 'CONTACT', fr: 'CONTACT' },
-			skills: { en: 'SKILLS', fr: 'COMPÉTENCES' },
-			experience: { en: 'PROFESSIONAL EXPERIENCE', fr: 'EXPÉRIENCES PROFESSIONNELLES' },
-			education: { en: 'EDUCATION', fr: 'FORMATION' },
-			projects: { en: 'PROJECTS', fr: 'PROJETS' },
-			hobbies: { en: 'HOBBIES', fr: 'LOISIRS' },
+			contact: { en: 'Contact', fr: 'Contact' },
+			skills: { en: 'Skills', fr: 'Compétences' },
+			experience: { en: 'Professional Experience', fr: 'Expériences Professionnelles' },
+			education: { en: 'Education', fr: 'Formation' },
+			projects: { en: 'Projects', fr: 'Projets' },
+			hobbies: { en: 'Hobbies', fr: 'Loisirs' },
 		},
 		experience: {
 			mainTasks: { en: 'Main tasks:', fr: 'Tâches principales :' },
